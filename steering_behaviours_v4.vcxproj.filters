@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Behaviours">
+      <UniqueIdentifier>{bbfc3fe2-cff3-49f1-9f4a-6810c3e1066e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Headers">
+      <UniqueIdentifier>{6283738d-d9fa-4d20-a0b7-d62da707f96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Headers\Group Behaviours">
+      <UniqueIdentifier>{20a11e51-fda6-435d-a2f3-f1b77c8454dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Headers\Individual Behaviours">
+      <UniqueIdentifier>{a1be4441-17e2-4f89-be0c-8fcda5e88883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Headers\Pair Behaviours">
+      <UniqueIdentifier>{d6c50001-d327-41d7-ac79-1e730ac48276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviours\Individual Behaviours">
+      <UniqueIdentifier>{d9a8be36-faa4-4a6e-bc2d-8b8f251c80e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviours\Pair Behaviours">
+      <UniqueIdentifier>{17be58e5-ef4b-42be-95b2-fa71eed8729f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviours\Group Behaviours">
+      <UniqueIdentifier>{ad0642f0-765a-4b79-a74b-688a879856b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agent">
+      <UniqueIdentifier>{d0ef5544-2c45-4618-ade5-0443a0b974d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agent">
+      <UniqueIdentifier>{497a3bd4-f776-457b-993f-fee0db37ea0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviours\Combined Behaviours">
+      <UniqueIdentifier>{8f4b4afe-f484-46fc-a61e-e2ebf09a04bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour Headers\Combined Behaviours">
+      <UniqueIdentifier>{f8a80b98-0c36-4c14-a563-831aace3311c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrival.cpp">
+      <Filter>Source Files\Behaviours\Individual Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Flee.cpp">
+      <Filter>Source Files\Behaviours\Individual Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Seek.cpp">
+      <Filter>Source Files\Behaviours\Individual Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleAvoidance.cpp">
+      <Filter>Source Files\Behaviours\Individual Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Wander.cpp">
+      <Filter>Source Files\Behaviours\Individual Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Pursue.cpp">
+      <Filter>Source Files\Behaviours\Pair Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Evade.cpp">
+      <Filter>Source Files\Behaviours\Pair Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Separate.cpp">
+      <Filter>Source Files\Behaviours\Group Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Align.cpp">
+      <Filter>Source Files\Behaviours\Group Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Cohere.cpp">
+      <Filter>Source Files\Behaviours\Group Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Flock.cpp">
+      <Filter>Source Files\Behaviours\Group Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowLeader_Flee.cpp">
+      <Filter>Source Files\Behaviours\Combined Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowLeader_Seek.cpp">
+      <Filter>Source Files\Behaviours\Combined Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowLeader.cpp">
+      <Filter>Source Files\Behaviours\Group Behaviours</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Align.h">
+      <Filter>Header Files\Behaviour Headers\Group Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Cohere.h">
+      <Filter>Header Files\Behaviour Headers\Group Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Separate.h">
+      <Filter>Header Files\Behaviour Headers\Group Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrival.h">
+      <Filter>Header Files\Behaviour Headers\Individual Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Flee.h">
+      <Filter>Header Files\Behaviour Headers\Individual Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Seek.h">
+      <Filter>Header Files\Behaviour Headers\Individual Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Evade.h">
+      <Filter>Header Files\Behaviour Headers\Pair Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Pursue.h">
+      <Filter>Header Files\Behaviour Headers\Pair Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Wander.h">
+      <Filter>Header Files\Behaviour Headers\Individual Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleAvoidance.h">
+      <Filter>Header Files\Behaviour Headers\Individual Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Flock.h">
+      <Filter>Header Files\Behaviour Headers\Group Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Header Files\Behaviour Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowLeader.h">
+      <Filter>Header Files\Behaviour Headers\Group Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowLeader_Flee.h">
+      <Filter>Header Files\Behaviour Headers\Combined Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowLeader_Seek.h">
+      <Filter>Header Files\Behaviour Headers\Combined Behaviours</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="croc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="frog.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ogre.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="oni.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="prince.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="skull.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wall.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="overlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
